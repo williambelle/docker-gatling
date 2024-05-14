@@ -4,8 +4,8 @@ Docker image for Gatling load testing tool.
 
 ## Tags
 
-- [latest](https://github.com/williambelle/docker-gatling/blob/main/ubuntu/Dockerfile)
-- [3.8.2](https://github.com/williambelle/docker-gatling/blob/main/ubuntu/Dockerfile)
+- [latest](https://github.com/williambelle/docker-gatling/blob/3e039c7fa611d0c467d065f5ab5f62761d3a0692/ubuntu/Dockerfile)
+- [3.8.2][3.8.2], [3.8.3][3.8.3]
 
 ## Usage
 
@@ -32,3 +32,7 @@ docker run -it --rm \
   -v ./results:/home/gatling/gatling/results \
   williambelle/gatling
 ```
+
+[latest]: https://github.com/williambelle/docker-gatling/blob/3e039c7fa611d0c467d065f5ab5f62761d3a0692/ubuntu/Dockerfile
+[3.8.3]: https://github.com/williambelle/docker-gatling/blob/16109ccdc5bd7341d09c4c85d98a902a22e63766/ubuntu/Dockerfile
+[3.8.2]: https://github.com/williambelle/docker-gatling/blob/3e039c7fa611d0c467d065f5ab5f62761d3a0692/ubuntu/Dockerfile
