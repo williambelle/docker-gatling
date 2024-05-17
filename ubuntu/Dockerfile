@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-ARG gatling=3.8.4
+ARG gatling=3.9.0
 
 RUN \
   apt update && \
