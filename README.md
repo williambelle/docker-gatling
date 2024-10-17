@@ -5,7 +5,7 @@ Docker image for Gatling load testing tool.
 ## Tags
 
 - [latest][latest]
-- [3.10.3][3.10.3], [3.10.2][3.10.2], [3.10.1][3.10.1], [3.10.0][3.10.0]
+- [3.10.4][3.10.4], [3.10.3][3.10.3], [3.10.2][3.10.2], [3.10.1][3.10.1], [3.10.0][3.10.0]
 - [3.9.5][3.9.5], [3.9.4][3.9.4], [3.9.3][3.9.3], [3.9.2][3.9.2], [3.9.1][3.9.1], [3.9.0][3.9.0]
 - [3.8.4][3.8.4], [3.8.3][3.8.3], [3.8.2][3.8.2]
 
@@ -35,7 +35,8 @@ docker run -it --rm \
   williambelle/gatling
 ```
 
-[latest]: https://github.com/williambelle/docker-gatling/blob/25ffd0225ec43e0f0a065f70304649f3120e0ee6/ubuntu/Dockerfile
+[latest]: https://github.com/williambelle/docker-gatling/blob/474d885f0c7eba90d5d7b12ff19f7a1fd1b9ce89/ubuntu/Dockerfile
+[3.10.4]: https://github.com/williambelle/docker-gatling/blob/474d885f0c7eba90d5d7b12ff19f7a1fd1b9ce89/ubuntu/Dockerfile
 [3.10.3]: https://github.com/williambelle/docker-gatling/blob/25ffd0225ec43e0f0a065f70304649f3120e0ee6/ubuntu/Dockerfile
 [3.10.2]: https://github.com/williambelle/docker-gatling/blob/38d12553cc7e067884dc15be90a293e5e8326056/ubuntu/Dockerfile
 [3.10.1]: https://github.com/williambelle/docker-gatling/blob/01221700bef7db8c1511f329444e5eca8c348077/ubuntu/Dockerfile
